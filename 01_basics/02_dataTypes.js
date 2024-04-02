@@ -27,4 +27,7 @@ console.log(state)
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
-console.log(typeof undefined === null); // 
+console.log(typeof undefined === null); // false.
+
+console.log(typeof undefined); // undefined
+console.log(Number.MAX_SAFE_INTEGER); // object
